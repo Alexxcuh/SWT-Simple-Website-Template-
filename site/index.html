@@ -84,26 +84,22 @@
             
             <div class="image-pages active" data-page="1">
                 <div class="image-grid">
-                    <div class="image-card"><img data-src="./assets/cdn/images/4291389.jpeg"></div>
-                    <div class="image-card"><img data-src="./assets/cdn/images/4319694.jpeg"></div>
-                    <div class="image-card"><img data-src="./assets/cdn/images/4291379.jpeg"></div>
-                    <div class="image-card"><img data-src="./assets/cdn/images/4291122.jpeg"></div>
+                    <div class="image-card"><img data-src="./assets/cdn/images/tetorobot.jpeg" alt="robot kasane teto"></div>
+                    <div class="image-card"><img data-src="./assets/cdn/images/tetofat.jpeg" alt="kasane teto hugging bread"></div>
+                    <div class="image-card"><img data-src="./assets/cdn/images/synthv.jpeg" alt="kasane teto synthesizer v"></div>
+                    <div class="image-card"><img data-src="./assets/cdn/images/smugfigr.jpeg" alt="chibi kasane teto figur"></div>
                 </div>
             </div>
 
             <div class="image-pages" data-page="2">
                 <div class="image-grid">
-                    <div class="image-card"><img data-src="./assets/cdn/images/4592734.jpeg"></div>
-                    <div class="image-card"><img data-src="./assets/cdn/images/4442969.jpeg"></div>
-                    <div class="image-card"><img data-src="./assets/cdn/images/4137048.jpeg"></div>
-                    <div class="image-card"><img data-src="./assets/cdn/images/4462355.jpeg"></div>
+                    <div class="image-card"><img data-src="./assets/cdn/images/sleepteto.jpeg" alt="one teto sleeping and one exited "></div>
+                    <div class="image-card"><img data-src="./assets/cdn/images/ineed.jpeg" alt="shut up and take my money gif here"></div>
+                    <div class="image-card"><img data-src="./assets/cdn/images/hi.jpeg" alt="zoomed in picture of an kasane teto plush"></div>
+                    <div class="image-card"><img data-src="./assets/cdn/images/ewgrass.jpeg" alt="teto outside touching grass ew"></div>
                 </div>
             </div>
-
-            <div class="pagination">
-                <button class="page-btn active" data-page="1">1</button>
-                <button class="page-btn" data-page="2">2</button>
-            </div>
+        <div class="pagination"></div>
 
         </div>
 
@@ -175,6 +171,7 @@
                         </div>
                         <div class="song-buttons">
                             <a class="yt" target="_blank" href="https://www.youtube.com/watch?v=duPJqfKiA78&"><img data-src="./assets/cdn/icons/youtube.png" alt="Youtube icon">Stream</a>
+                            <a class="sp" target="_blank" href="https://www.nicovideo.jp/watch/sm3945173"><img data-src="./assets/cdn/icons/nico.ico" alt="niconico icon">Stream</a>
                         </div>
                     </div>
 
@@ -431,79 +428,99 @@
 
                 </div>
             </div>
+        <div class="pagination"></div>
 
-            <div class="pagination">
-                            <button class="page-btn active" data-page="1">1</button>
-                            <button class="page-btn" data-page="2">2</button>
-                            <button class="page-btn" data-page="3">3</button>
-                            <button class="page-btn" data-page="4">4</button>
-                            <button class="page-btn" data-page="5">5</button>
-                            <button class="page-btn" data-page="6">6</button>
-                        </div>
+        <!-- tab pages and image loading -->
+        <script>
+            const tabs = document.querySelectorAll(".tab");
+            const panels = document.querySelectorAll(".panel");
+            const paginationState = {
+                songs: { currentPage: 1, totalPages: 6 },
+                images: { currentPage: 1, totalPages: 2 }
+            };
 
-                    </div>
+            const loadActivePageImages = (panel) => {
+                const activeSubPage = panel.querySelector('.song-pages.active, .image-pages.active') || panel;
+                const images = activeSubPage.querySelectorAll('img[data-src]');
+                images.forEach(img => {
+                    if (img.getAttribute('src') !== img.getAttribute('data-src')) {
+                        img.src = img.getAttribute('data-src');
+                    }
+                });
+            };
 
-                </div>
+            const setActivePage = (panelId, pageNum, pageSelector) => {
+                const panel = document.getElementById(panelId);
+                panel.querySelectorAll(pageSelector).forEach(p => p.classList.remove('active'));
+                panel.querySelector(`${pageSelector}[data-page="${pageNum}"]`).classList.add('active');
+                loadActivePageImages(panel);
+            };
 
-            </div>
+            const renderPagination = (panelId, pageSelector) => {
+                const panel = document.getElementById(panelId);
+                const container = panel.querySelector('.pagination');
+                if (!container) return;
+                
+                const state = paginationState[panelId === 'songs' ? 'songs' : 'images'];
+                const total = state.totalPages;
+                container.innerHTML = '';
 
-            </div>
+                let start = Math.max(1, state.currentPage - 1);
+                let end = Math.min(total, start + 2);
+                if (end - start < 2 && start > 1) start = Math.max(1, end - 2);
 
+                const leftBtn = document.createElement('button');
+                leftBtn.innerHTML = '&#10094;';
+                leftBtn.className = 'page-btn';
+                leftBtn.onclick = () => { 
+                    if(state.currentPage > 1) { 
+                        state.currentPage--; 
+                        setActivePage(panelId, state.currentPage, pageSelector);
+                        renderPagination(panelId, pageSelector); 
+                    } 
+                };
+                container.appendChild(leftBtn);
 
-        <!-- tab changing (ps this only loads visible elements) -->
-    <script>
-        const tabs = document.querySelectorAll(".tab");
-        const panels = document.querySelectorAll(".panel");
-
-        const loadActivePageImages = (panel) => {
-            const activeSubPage = panel.querySelector('.song-pages.active, .image-pages.active') || panel;
-            
-            const images = activeSubPage.querySelectorAll('img[data-src]');
-            images.forEach(img => {
-                if (img.getAttribute('src') !== img.getAttribute('data-src')) {
-                    img.src = img.getAttribute('data-src');
+                for (let i = start; i <= end; i++) {
+                    const btn = document.createElement('button');
+                    btn.innerText = i;
+                    btn.className = 'page-btn' + (i === state.currentPage ? ' active' : '');
+                    btn.onclick = () => {
+                        state.currentPage = i;
+                        setActivePage(panelId, i, pageSelector);
+                        renderPagination(panelId, pageSelector);
+                    };
+                    container.appendChild(btn);
                 }
-            });
-        };
 
-        tabs.forEach(t => {
-            t.addEventListener("click", () => {
-                tabs.forEach(x => x.classList.remove("active"));
-                panels.forEach(x => x.classList.remove("active"));
+                const rightBtn = document.createElement('button');
+                rightBtn.innerHTML = '&#10095;';
+                rightBtn.className = 'page-btn';
+                rightBtn.onclick = () => { 
+                    if(state.currentPage < total) { 
+                        state.currentPage++; 
+                        setActivePage(panelId, state.currentPage, pageSelector);
+                        renderPagination(panelId, pageSelector); 
+                    } 
+                };
+                container.appendChild(rightBtn);
+            };
 
-                t.classList.add("active");
-                const activePanel = document.getElementById(t.dataset.tab);
-                activePanel.classList.add("active");
-
-                loadActivePageImages(activePanel);
-            });
-        });
-
-        const handlePagination = (btnSelector, pageSelector) => {
-            const btns = document.querySelectorAll(btnSelector);
-            btns.forEach(btn => {
-                btn.addEventListener('click', () => {
-                    const parentPanel = btn.closest('.panel');
-                    const localBtns = parentPanel.querySelectorAll(btnSelector);
-                    const localPages = parentPanel.querySelectorAll(pageSelector);
-                    
-                    localBtns.forEach(b => b.classList.remove('active'));
-                    localPages.forEach(p => p.classList.remove('active'));
-                    
-                    btn.classList.add('active');
-                    const targetPage = parentPanel.querySelector(`${pageSelector}[data-page="${btn.dataset.page}"]`);
-                    targetPage.classList.add('active');
-
-                    loadActivePageImages(parentPanel);
+            tabs.forEach(t => {
+                t.addEventListener("click", () => {
+                    tabs.forEach(x => x.classList.remove("active"));
+                    panels.forEach(x => x.classList.remove("active"));
+                    t.classList.add("active");
+                    const activePanel = document.getElementById(t.dataset.tab);
+                    activePanel.classList.add("active");
+                    loadActivePageImages(activePanel);
                 });
             });
-        };
 
-    handlePagination('#songs .page-btn', '.song-pages');
-    handlePagination('#images .page-btn', '.image-pages');
-
-    loadActivePageImages(document.querySelector('.panel.active'));
-</script>
+            renderPagination('songs', '.song-pages');
+            renderPagination('images', '.image-pages');
+            loadActivePageImages(document.querySelector('.panel.active'));
+        </script>
 
         <script src="./assets/confetti.js"></script>
         <script>
