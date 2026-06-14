@@ -509,7 +509,7 @@
                 const container = panel.querySelector('.pagination');
                 if (!container) return;
                 
-                const state = paginationState[panelId === 'songs' ? 'songs' : 'images'];
+                const state = paginationState[panelId];
                 const total = state.totalPages;
                 container.innerHTML = '';
 
