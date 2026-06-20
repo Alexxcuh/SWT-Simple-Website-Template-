@@ -1,0 +1,11 @@
+{
+    "SongsPerPage":4,
+    "SpotifyColor":"#1db954",
+    "SpotifyIcon":"./assets/cdn/icons/spotify.svg",
+    "YoutubeColor":"#CD201F",
+    "YoutubeIcon":"./assets/cdn/icons/youtube.svg",
+    "NicoColor":"#FFFFFF",
+    "NicoIcon":"./assets/cdn/icons/niconico.svg",
+    "BandcampColor":"#0CACD7",
+    "BandcampIcon":"./assets/cdn/icons/bandcamp.svg"
+}

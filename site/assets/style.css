@@ -221,6 +221,7 @@ body{
     height:58px;
     border-radius:12px;
     object-fit:cover;
+    color:#fff;
 }
 
 .song-details {
@@ -241,10 +242,21 @@ body{
     color:#9a9a9a;
 }
 
-.song-buttons{
+.song-buttons {
     margin-left:auto;
     display:flex;
     gap:6px;
+    width:180px;
+}
+
+.song-buttons .click-button {
+    --bg: #fff;
+    --hover: #fff;
+    flex:1;
+    justify-content:center;
+    background: var(--bg);
+    color:color-mix(in srgb, var(--bg) 10%, var(--hover));
+    transition:all ease 0.25s; 
 }
 
 .song-buttons a{
@@ -273,15 +285,14 @@ body{
     border-radius:0;
 }
 
-.click-button{ background:#ffffff; color:#111; }
-.yt{ background:#ff0132; color:#fff; transition:all ease 0.25s;}
-.bc{ background:#0cacd7; color:#fff; transition:all ease 0.25s;}
-.sp{ background:#1dc156; color:#fff; transition:all ease 0.25s;}
+.song-buttons:hover .click-button {
+    flex:0.95;
+}
 
-.click-button:hover{ background:#eaeaea; }
-.yt:hover{ background:#ff4d6f; }
-.bc:hover{ background:#54c4e3; }
-.sp:hover{ background:#60d388; }
+.song-buttons .click-button:hover {
+    flex:1.05;
+    background: color-mix(in srgb, var(--bg) 80%, var(--hover));
+}
 
 @media (max-width: 820px) {
     body {

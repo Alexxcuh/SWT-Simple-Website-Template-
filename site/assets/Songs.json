@@ -1,0 +1,956 @@
+{
+    "Songs": [
+        {
+            "Name": "Mesmerizer",
+            "Creator": "32ki",
+            "Icon": "./assets/cdn/covers/ab67616d00001e0221333eb66e3cf9f3818e789f.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "19y8YTbvri8"
+                },
+                {
+                    "Type": 1,
+                    "Code": "5ic62hKqeDhZsa9l6YQxzJ"
+                }
+            ]
+        },
+        {
+            "Name": "テトリス (Tetoris)",
+            "Creator": "柊マグネタイト (Hiiragi Magnetite)",
+            "Icon": "./assets/cdn/covers/tetoris.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "Soy4jGPHr3g"
+                },
+                {
+                    "Type": 1,
+                    "Code": "1p4EbJLS0jdWX3tOHdru8S"
+                }
+            ]
+        },
+        {
+            "Name": "人マニア (HITO Mania)",
+            "Creator": "原口沙輔 (Sasuke Haraguchi)",
+            "Icon": "./assets/cdn/covers/hito.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "HTxwOxFt5d4"
+                },
+                {
+                    "Type": 1,
+                    "Code": "5m9rwQVcChWF3TsKXlJfgE"
+                }
+            ]
+        },
+        {
+            "Name": "オーバーライド (Override)",
+            "Creator": "吉田夜世 (Yoshida Yasei)",
+            "Icon": "./assets/cdn/covers/override.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "LLjfal8jCYI"
+                },
+                {
+                    "Type": 1,
+                    "Code": "0efuGKWrRKae8kcHYuaznP"
+                }
+            ]
+        },
+        {
+            "Name": "Triple Baka",
+            "Creator": "Miku, Teto, Neru",
+            "Icon": "./assets/cdn/covers/onlysongwiththeyellowonethatisntinmezmoriser.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "duPJqfKiA78"
+                },
+                {
+                    "Type": 2,
+                    "Code": "sm3945173"
+                }
+            ]
+        },
+        {
+            "Name": "Ochame Kinou",
+            "Creator": "タカオカミズキ",
+            "Icon": "./assets/cdn/covers/oschame.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "rkf1pLv25VU"
+                },
+                {
+                    "Type": 1,
+                    "Code": "4e5kaIUjbskvGhpSXZdiA6"
+                }
+            ]
+        },
+        {
+            "Name": "Liars Dance",
+            "Creator": "マサラダ",
+            "Icon": "./assets/cdn/covers/liar.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "UHbmkxv-874"
+                },
+                {
+                    "Type": 1,
+                    "Code": "1YXuCccqCx4AM1PVekISj8"
+                }
+            ]
+        },
+        {
+            "Name": "Brain Implosion Energy Drink",
+            "Creator": "Flanger Moose",
+            "Icon": "./assets/cdn/covers/energy.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "P49lBbJSpdQ"
+                },
+                {
+                    "Type": 1,
+                    "Code": "3M0bSmGrRDqlTCG78i3WyM"
+                }
+            ]
+        },
+        {
+            "Name": "Medicine",
+            "Creator": "原口沙輔 (Sasuke Haraguchi)",
+            "Icon": "./assets/cdn/covers/medicine.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "F38EuG2dAyM"
+                },
+                {
+                    "Type": 1,
+                    "Code": "6oQd9KEbRMERESY1pftFyn"
+                }
+            ]
+        },
+        {
+            "Name": "ファサード・クエスチョン / 初音ミク",
+            "Creator": "32ki",
+            "Icon": "./assets/cdn/covers/pokemon.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "njKdvdYQ-xE"
+                },
+                {
+                    "Type": 1,
+                    "Code": "3V9h6P6IZasQXDfivVJ2ZO"
+                }
+            ]
+        },
+        {
+            "Name": "サイエンス - Science",
+            "Creator": "MIMI",
+            "Icon": "./assets/cdn/covers/scien.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "m-bvW4pKT68"
+                },
+                {
+                    "Type": 1,
+                    "Code": "4ZdMkT4s6qfoH30vw74wVI"
+                }
+            ]
+        },
+        {
+            "Name": "オブソミート",
+            "Creator": "32ki",
+            "Icon": "./assets/cdn/covers/goodtaste.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "L2hzsXOT0Nc"
+                },
+                {
+                    "Type": 1,
+                    "Code": "0EiO4pTxMxx8Qq2lUmBwij"
+                }
+            ]
+        },
+        {
+            "Name": "モニタリング / 重音テトSV",
+            "Creator": "Yasai31 & Deeco*27",
+            "Icon": "./assets/cdn/covers/weed.png",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "b-lg99jzkII"
+                }
+            ]
+        },
+        {
+            "Name": "Window View",
+            "Creator": "Farewell225",
+            "Icon": "./assets/cdn/covers/window.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "0EnAPvoIoXM"
+                },
+                {
+                    "Type": 1,
+                    "Code": "2LhW7xR2T0cS5J67mOXijA"
+                }
+            ]
+        },
+        {
+            "Name": "Bird Brain",
+            "Creator": "Jamie Paige",
+            "Icon": "./assets/cdn/covers/bird.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "0iVlSNpq8i8"
+                },
+                {
+                    "Type": 1,
+                    "Code": "2DAZakhs7RRCoM6pvLpUEz"
+                }
+            ]
+        },
+        {
+            "Name": "Bad Taste ft. Kasane Teto",
+            "Creator": "omu",
+            "Icon": "./assets/cdn/covers/badtaste.avif",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "riaRzUVHEfU"
+                },
+                {
+                    "Type": 3,
+                    "Code": "bad-taste"
+                }
+            ]
+        },
+        {
+            "Name": "Teto Territory",
+            "Creator": "Kasane Teto",
+            "Icon": "./assets/cdn/covers/tetoterr.webp",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "JALbemLw3G4"
+                },
+                {
+                    "Type": 1,
+                    "Code": "1gkAUCvLhAJMmpQxDyOISL"
+                }
+            ]
+        },
+        {
+            "Name": "Honestly",
+            "Creator": "Thørns",
+            "Icon": "./assets/cdn/covers/honest.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "Kybi1q3rjdk"
+                },
+                {
+                    "Type": 1,
+                    "Code": "20OWXyuRI4Dt1S2JCdajEh"
+                }
+            ]
+        },
+        {
+            "Name": "PARANOID",
+            "Creator": "temcandoanything",
+            "Icon": "./assets/cdn/covers/iseeyou.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "xSIsOhHSwbU"
+                },
+                {
+                    "Type": 1,
+                    "Code": "6RRfoCxBqUoGWGptcMoq4F"
+                }
+            ]
+        },
+        {
+            "Name": "Lie",
+            "Creator": "雨良 Amala",
+            "Icon": "./assets/cdn/covers/lie.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "TlgxSeGJvew"
+                },
+                {
+                    "Type": 1,
+                    "Code": "67oBnNzmrisBlxGeSZnvLC"
+                }
+            ]
+        },
+        {
+            "Name": "Machine Love",
+            "Creator": "Jamie Paige",
+            "Icon": "./assets/cdn/covers/machine.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "sqK-jh4TDXo"
+                },
+                {
+                    "Type": 1,
+                    "Code": "1H2pPtoPS8kNlqCN7HfT6g"
+                }
+            ]
+        },
+        {
+            "Name": "ヤラララ(YARARARA)",
+            "Creator": "AnythingBecomeMoe",
+            "Icon": "./assets/cdn/covers/yararara.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "T24rF_x0TmQ"
+                },
+                {
+                    "Type": 1,
+                    "Code": "7fFkLGltPEHInEHoPfT0Jf"
+                }
+            ]
+        },
+        {
+            "Name": "Akage (赤毛)",
+            "Creator": "SmilyBruh*!",
+            "Icon": "./assets/cdn/covers/akage.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "D50L4EeBHOs"
+                },
+                {
+                    "Type": 1,
+                    "Code": "5r17r9EAOTVUroETKplOGd"
+                }
+            ]
+        },
+        {
+            "Name": "have you ever wanted to run away?",
+            "Creator": "Alex Coldfire",
+            "Icon": "./assets/cdn/covers/run_away.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "o1wNFyX_oI8"
+                },
+                {
+                    "Type": 1,
+                    "Code": "4XCVfbEeRo8CMKXagDVRN2"
+                }
+            ]
+        },
+        {
+            "Name": "False, Temperament, World",
+            "Creator": "WyvernP",
+            "Icon": "./assets/cdn/covers/false_temperament_world.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "dgNceSpd424"
+                },
+                {
+                    "Type": 3,
+                    "Code": "kasane-teto"
+                }
+            ]
+        },
+        {
+            "Name": "Waiting for Tomorrow",
+            "Creator": "MiliSen",
+            "Icon": "./assets/cdn/covers/tomorrow.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "RmyIX28sGAI"
+                },
+                {
+                    "Type": 1,
+                    "Code": "5bmzedI9M6IlfhPLkcri5V"
+                }
+            ]
+        },
+        {
+            "Name": "SALAD HE4RT",
+            "Creator": "Pips",
+            "Icon": "./assets/cdn/covers/salad_he4rt.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "LtVzbvZ9om0"
+                },
+                {
+                    "Type": 1,
+                    "Code": "4YDX0ddLX4TH7st1pqjk5Z"
+                }
+            ]
+        },
+        {
+            "Name": "Blushing Cherry",
+            "Creator": "HWAAStyle & isidore.",
+            "Icon": "./assets/cdn/covers/blushing_cherry.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "EKF7prCwFZ4"
+                },
+                {
+                    "Type": 1,
+                    "Code": "5I2vaqhxC6HNlDUOVjqNby"
+                }
+            ]
+        },
+        {
+            "Name": "The Queen of Swords",
+            "Creator": "WA-4",
+            "Icon": "./assets/cdn/covers/swords.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "YWhhJpB-uTA"
+                },
+                {
+                    "Type": 1,
+                    "Code": "6NSK3qLusrXRhQZ9kT7g5D"
+                }
+            ]
+        },
+        {
+            "Name": "GUILTY PLEASURE",
+            "Creator": "tigerjolteo",
+            "Icon": "./assets/cdn/covers/guilty_pleasure.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "ENq3maK7kDA"
+                },
+                {
+                    "Type": 1,
+                    "Code": "79MN2JtUJS9lGmVJa2wsTE"
+                }
+            ]
+        },
+        {
+            "Name": "Get you! Chu!!",
+            "Creator": "Shü",
+            "Icon": "./assets/cdn/covers/get_you_chu.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "6qYajKd1lgI"
+                },
+                {
+                    "Type": 1,
+                    "Code": "57Uhwaznz4xEOKnMk21Gkc"
+                }
+            ]
+        },
+        {
+            "Name": "Ghost Experience",
+            "Creator": "32ki",
+            "Icon": "./assets/cdn/covers/ghost_experience.png",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "hbGFPAF9-_Q"
+                }
+            ]
+        },
+        {
+            "Name": "Mind Mirror",
+            "Creator": "SoChromatic",
+            "Icon": "./assets/cdn/covers/mind_mirror.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "2Z6k7CYxxSo"
+                },
+                {
+                    "Type": 3,
+                    "Code": "mind-mirror"
+                }
+            ]
+        },
+        {
+            "Name": "DAYDREAMIN'",
+            "Creator": "mint tea",
+            "Icon": "./assets/cdn/covers/daydreamin.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "f8HHPph7LMU"
+                },
+                {
+                    "Type": 1,
+                    "Code": "67S3ZNC6LLL5JENos2VJiy"
+                }
+            ]
+        },
+        {
+            "Name": "FIRE!!!",
+            "Creator": "Vane Lily & Jamie Paige",
+            "Icon": "./assets/cdn/covers/fire.png",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "yZkPe7TEuyk"
+                },
+                {
+                    "Type": 1,
+                    "Code": "3pRPXOvTtdkB3lcYF8s0ui"
+                }
+            ]
+        },
+        {
+            "Name": "Vermilion",
+            "Creator": "CircusP",
+            "Icon": "./assets/cdn/covers/vermilion.png",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "wFLn_d51bNc"
+                },
+                {
+                    "Type": 1,
+                    "Code": "3CSIkb7MnhZ8UPvt3ZbGjn"
+                }
+            ]
+        },
+        {
+            "Name": "Aren't You Tired",
+            "Creator": "Anh Duy",
+            "Icon": "./assets/cdn/covers/tired.png",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "cVfxLn8Kw84"
+                },
+                {
+                    "Type": 1,
+                    "Code": "7zhR37f40yMtufLE29lkYk"
+                }
+            ]
+        },
+        {
+            "Name": "WILDCARD",
+            "Creator": "KIRA",
+            "Icon": "./assets/cdn/covers/wildcard.png",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "v1TaIfKctPo"
+                },
+                {
+                    "Type": 1,
+                    "Code": "0OaU58ix6ZQuFEcUZbhzaJ"
+                }
+            ]
+        },
+        {
+            "Name": "Language of the Lost",
+            "Creator": "RIProducer",
+            "Icon": "./assets/cdn/covers/lost.png",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "1xEfMnXyGkA"
+                },
+                {
+                    "Type": 1,
+                    "Code": "4EGB0obwZsmcsGDwbFpsYe"
+                }
+            ]
+        },
+        {
+            "Name": "Crashing Into You",
+            "Creator": "Eggtan",
+            "Icon": "./assets/cdn/covers/crashing.png",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "aVkskVCx5kI"
+                },
+                {
+                    "Type": 1,
+                    "Code": "7hCemESCTJaB9LsHikFCww"
+                }
+            ]
+        },
+        {
+            "Name": "Lose Your Head",
+            "Creator": "Vane Lily",
+            "Icon": "./assets/cdn/covers/lose.png",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "36h1nhV_klE"
+                },
+                {
+                    "Type": 1,
+                    "Code": "4ELaRAuPV3sQcFU6nMDsBx"
+                }
+            ]
+        },
+        {
+            "Name": "To My Biggest Fan",
+            "Creator": "beat_shobon",
+            "Icon": "./assets/cdn/covers/biggest_fan.png",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "_SRp1kc0088"
+                },
+                {
+                    "Type": 1,
+                    "Code": "6JTKIIoBs10UFatAk9HTZJ"
+                }
+            ]
+        },
+        {
+            "Name": "Tell Me",
+            "Creator": "beat_shobon & CircusP",
+            "Icon": "./assets/cdn/covers/tell_me.png",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "1xEfMnXyGkA"
+                },
+                {
+                    "Type": 1,
+                    "Code": "4EGB0obwZsmcsGDwbFpsYe"
+                }
+            ]
+        },
+        {
+            "Name": "Pathological Facade",
+            "Creator": "Ghost and Pals",
+            "Icon": "./assets/cdn/covers/pathological.png",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "inRXBlYgMGI"
+                },
+                {
+                    "Type": 1,
+                    "Code": "3GWbkcGP4YzrUme8Rb1DNs"
+                }
+            ]
+        },
+        {
+            "Name": "Please, Doctor!",
+            "Creator": "Chenomio",
+            "Icon": "./assets/cdn/covers/please_doctor.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "b5b49Vu-9SM"
+                },
+                {
+                    "Type": 1,
+                    "Code": "6I2IslIqTYVAd1Akr3ldjy"
+                }
+            ]
+        },
+        {
+            "Name": "Phonky Donky Crazy",
+            "Creator": "Chenomio",
+            "Icon": "./assets/cdn/covers/phonky.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "nzMKs_Xh1Co"
+                },
+                {
+                    "Type": 1,
+                    "Code": "06K5n0v5bEdr3FFSJwqFo0"
+                }
+            ]
+        },
+        {
+            "Name": "Ever Romantic",
+            "Creator": "MiliSen",
+            "Icon": "./assets/cdn/covers/romantic.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "IJMhgg1I3dY"
+                },
+                {
+                    "Type": 1,
+                    "Code": "4tDah2wdnLYs3pyTOowqJW"
+                }
+            ]
+        },
+        {
+            "Name": "誤解ですっ！(Gokaidesu!)",
+            "Creator": "Yowane",
+            "Icon": "./assets/cdn/covers/gokaidesu.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "04DkRYxo3gE"
+                },
+                {
+                    "Type": 3,
+                    "Code": "gokaidesu-feat-kasane-teto"
+                }
+            ]
+        },
+        {
+            "Name": "Overclocked",
+            "Creator": "DryftiN",
+            "Icon": "./assets/cdn/covers/overclocked.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "jOZdf62hb64"
+                },
+                {
+                    "Type": 1,
+                    "Code": "43ItDU3iukjOJ5N6kOSL4F"
+                }
+            ]
+        },
+        {
+            "Name": "CONTRADICTIONS",
+            "Creator": "darkbluecat & AnbaLen",
+            "Icon": "./assets/cdn/covers/contradictions.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "A0ih5EaG4yw"
+                },
+                {
+                    "Type": 1,
+                    "Code": "3QihaE7ewi300aYMNOwNoh"
+                }
+            ]
+        },
+        {
+            "Name": "Rolling Girl",
+            "Creator": "KimaroArt",
+            "Icon": "./assets/cdn/covers/rolling.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "k_YJDyVqdN4"
+                },
+                {
+                    "Type": 1,
+                    "Code": "4CfP6RRYr0X2ND6ExKH6oJ"
+                }
+            ]
+        },
+        {
+            "Name": "Thought Crime",
+            "Creator": "KimaroArt",
+            "Icon": "./assets/cdn/covers/thought.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "FtnWKcTajYk"
+                },
+                {
+                    "Type": 1,
+                    "Code": "09yvo9S88Rk6ZCJ8UsT2zh"
+                }
+            ]
+        },
+        {
+            "Name": "Lost One's Weeping",
+            "Creator": "KimaroArt",
+            "Icon": "./assets/cdn/covers/weeping.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "tSV59aHvKr4"
+                },
+                {
+                    "Type": 1,
+                    "Code": "1Lel2pbewiplnNitKCoSIk"
+                }
+            ]
+        },
+        {
+            "Name": "Shine Your Light",
+            "Creator": "KimaroArt",
+            "Icon": "./assets/cdn/covers/light.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "P4TYI932Gjs"
+                },
+                {
+                    "Type": 1,
+                    "Code": "1IJQ0AhMA6bxmZ6lIlj6YX"
+                }
+            ]
+        },
+        {
+            "Name": "The Trap",
+            "Creator": "BBB",
+            "Icon": "./assets/cdn/covers/the_trap.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "0QtaHnPCAxA"
+                },
+                {
+                    "Type": 1,
+                    "Code": "6xlYroflrtQM5zgDdSmcqh"
+                }
+            ]
+        },
+        {
+            "Name": "SPLASH HAZARD",
+            "Creator": "The Espressos",
+            "Icon": "./assets/cdn/covers/splash.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "PELZ2A57IPQ"
+                },
+                {
+                    "Type": 1,
+                    "Code": "69R0MzRAfZkNdDmkd3QnYO"
+                }
+            ]
+        },
+        {
+            "Name": "Hazard",
+            "Creator": "JSON_",
+            "Icon": "./assets/cdn/covers/hazard.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "OGVAKTIw9oo"
+                },
+                {
+                    "Type": 1,
+                    "Code": "7fmtsaZhUxRqY2U23ykp5K"
+                }
+            ]
+        },
+        {
+            "Name": "Faceless",
+            "Creator": "Kikoe",
+            "Icon": "./assets/cdn/covers/faceless.png",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "7ACbmsO-LpQ"
+                },
+                {
+                    "Type": 1,
+                    "Code": "4kdedHn8bNMRu72TH53H5z"
+                }
+            ]
+        },
+        {
+            "Name": "Let Myself",
+            "Creator": "Kikoe",
+            "Icon": "./assets/cdn/covers/let_myself.png",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "yKf6kKWXiDk"
+                },
+                {
+                    "Type": 1,
+                    "Code": "3i3mvP53WC43h5fHemtzs6"
+                }
+            ]
+        },
+        {
+            "Name": "Raspberry Mode",
+            "Creator": "Capchii",
+            "Icon": "./assets/cdn/covers/raspberry.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "pzrvCB2jPFo"
+                },
+                {
+                    "Type": 1,
+                    "Code": "6pk65XPzf5hkGITyvcE2yd"
+                }
+            ]
+        },
+        {
+            "Name": "コンニチハ／サヨナラ",
+            "Creator": "Buriru",
+            "Icon": "./assets/cdn/covers/konnichiwa_sayonara.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "EqmPltueM8g"
+                },
+                {
+                    "Type": 1,
+                    "Code": "4UNjY5c1XcuVoGj8t3M9Ap"
+                }
+            ]
+        },
+        {
+            "Name": "盲目スレッド",
+            "Creator": "Asa",
+            "Icon": "./assets/cdn/covers/momoku_thread.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "_6jXJBu4b14"
+                },
+                {
+                    "Type": 1,
+                    "Code": "07Okhjmp7lxFt3EJpPd2cZ"
+                }
+            ]
+        },
+        {
+            "Name": "Kissin' u Till Dawn",
+            "Creator": "Huro Nomoe",
+            "Icon": "./assets/cdn/covers/kissin.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "RM_ZG4plqDk"
+                },
+                {
+                    "Type": 1,
+                    "Code": "1RURfycfwiibJa0Yn7ARg2"
+                }
+            ]
+        },
+        {
+            "Name": "Catchy Yellow Song",
+            "Creator": "44e-prone",
+            "Icon": "./assets/cdn/covers/catchy.jpg",
+            "Streams": [
+                {
+                    "Type": 0,
+                    "Code": "7iMbOOUY3Dc"
+                },
+                {
+                    "Type": 1,
+                    "Code": "1ReoJuyRAgkxTk2feoEdvU"
+                }
+            ]
+        }
+    ]
+}
