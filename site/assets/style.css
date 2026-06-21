@@ -116,20 +116,24 @@ body{
     font-size:14px;
 }
 
-.social-grid{
-    display:flex;
-    gap:8px;
-    flex-wrap:wrap;
+.social-grid {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap; 
 }
 
-.social{
-    background:#1f1f1f;
-    border:2px solid #333;
-    border-radius:10px;
-    padding:8px 12px;
-    font-size:13px;
-    color:white;
-    text-decoration:none;
+.social {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #1f1f1f;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 8px 12px;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap; 
 }
 
 .right{
