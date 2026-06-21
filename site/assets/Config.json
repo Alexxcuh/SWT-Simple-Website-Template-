@@ -1,5 +1,6 @@
 {
     "SongsPerPage":4,
+    "ImagesPerPage":4,
     "SpotifyColor":"#1db954",
     "SpotifyIcon":"./assets/cdn/icons/spotify.svg",
     "YoutubeColor":"#CD201F",
